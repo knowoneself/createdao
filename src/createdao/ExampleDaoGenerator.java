@@ -12,7 +12,7 @@ public class ExampleDaoGenerator {
         Schema schema = new Schema(3, "com.comtop.mynote.db");  
   
         //addNote(schema);  
-       // addCustomerOrder(schema);   ɭ  
+       // addCustomerOrder(schema);   ɭ  2
   
         addMyNote(schema);  
         new DaoGenerator().generateAll(schema, "../");  
